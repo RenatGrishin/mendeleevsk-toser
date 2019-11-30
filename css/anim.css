@@ -1,0 +1,35 @@
+@keyframes button-orange {
+from {
+    background-color: #fff;
+    color: #FEC231;
+    border: 1px solid #FEC231
+    }
+to {
+    background-color: #FEC231;
+    color: #000;
+    border: 1px solid #FEC231
+    }
+}
+@keyframes button-orange-hover {
+from {
+    background-color: #FEC231;
+    color: #000;
+    border: 1px solid #FEC231
+    }
+to {
+    background-color: #fff;
+    color: #FEC231;
+    border: 1px solid #FEC231
+    }
+}
+
+.bottom-a{
+    animation: button-orange 0.5s 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.bottom-a:hover{
+    animation: button-orange-hover 0.5s 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
